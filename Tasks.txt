@@ -1,0 +1,23 @@
+﻿OpenId Connect
+OAuth2
+IdentityServer4
+Microsoft Identity
+
+1 - Criar projeto básico. OK
+	1.1 - Swegger OK
+
+2 - Criar autenticação básica
+	2.1 - dotnet add package System.IdentityModel.Tokens.Jwt OK
+	2.2 - Definir a chave (simples por enquanto) OK
+
+3 - Criar estrutura JWT OK
+
+4 - Testar
+	4.1 - Chamadas com Postman OK
+	4.2 - Aplicação "Externa" recebendo e permitindo acesso com token
+
+6 - Subir para o Git
+
+7 - Publicar no Azure
+
+
