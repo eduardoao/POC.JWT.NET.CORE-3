@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\POCs\\OK\\API\\Pacient.API\\Pacient.API.csproj": {}
+    "D:\\Codigos\\Poc\\POC.JWT.NET.CORE-3\\Pacient.API\\Pacient.API.csproj": {}
   },
   "projects": {
-    "D:\\POCs\\OK\\API\\Pacient.API\\Pacient.API.csproj": {
+    "D:\\Codigos\\Poc\\POC.JWT.NET.CORE-3\\Pacient.API\\Pacient.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\POCs\\OK\\API\\Pacient.API\\Pacient.API.csproj",
+        "projectUniqueName": "D:\\Codigos\\Poc\\POC.JWT.NET.CORE-3\\Pacient.API\\Pacient.API.csproj",
         "projectName": "Pacient.API",
-        "projectPath": "D:\\POCs\\OK\\API\\Pacient.API\\Pacient.API.csproj",
-        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "D:\\POCs\\OK\\API\\Pacient.API\\obj\\",
+        "projectPath": "D:\\Codigos\\Poc\\POC.JWT.NET.CORE-3\\Pacient.API\\Pacient.API.csproj",
+        "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
+        "outputPath": "D:\\Codigos\\Poc\\POC.JWT.NET.CORE-3\\Pacient.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

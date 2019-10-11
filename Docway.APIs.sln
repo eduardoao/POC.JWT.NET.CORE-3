@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.852
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pacient.API", "Pacient.API\Pacient.API.csproj", "{B645BAC4-1614-42BB-A57E-6A01ED2477A7}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E9A3EA8-9257-425E-8DAB-F88A4DF50C77}"
 	ProjectSection(SolutionItems) = preProject
 		1.Tasks.txt = 1.Tasks.txt
+		2.Tasks.txt = 2.Tasks.txt
+		Authenticator.API\appsettings - Cópia.json_ = Authenticator.API\appsettings - Cópia.json_
 	EndProjectSection
 EndProject
 Global
