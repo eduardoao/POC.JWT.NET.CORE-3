@@ -1,0 +1,5 @@
+1 - Configurar o identity com SQL 
+	1.1 - Add migration OK
+
+2 - Configurar midware OK
+

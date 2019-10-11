@@ -1,0 +1,2 @@
+1 - Configurar token refresh 
+https://www.wellingtonjhn.com/posts/autentica%C3%A7%C3%A3o-em-apis-asp.net-core-com-jwt---refresh-token/
