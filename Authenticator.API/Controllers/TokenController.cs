@@ -60,22 +60,25 @@ namespace Authenticator.API.Controllers
                 };
 
 
-                //This part is the wrong place. I'll change for the new class. 
+                //This part is the wrong place. I'll change for the new class. New component maybe
                 var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["SecurityKey"]));
 
                 var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
+                var timeforvalidationminute = Convert.ToDouble(_configuration["TimeForValidationMinute"]);
+
                 var token = new JwtSecurityToken(
-                    issuer: "eduardo.teste",
-                    audience: "eduardo.teste",
+                    issuer: _configuration["issuer"],
+                    audience: _configuration["audience"],
                     claims: claims,
-                    expires: DateTime.Now.AddMinutes(20),
+                    expires: DateTime.Now.AddMinutes(timeforvalidationminute),
                     signingCredentials: creds);
 
                 return Ok(new
                 {
                     token = new JwtSecurityTokenHandler().WriteToken(token),
-                    expires = DateTime.Now.AddMinutes(20)
+                    ExpiresIn = (long)TimeSpan.FromMinutes(timeforvalidationminute).TotalSeconds
+
                 });
             }
 
